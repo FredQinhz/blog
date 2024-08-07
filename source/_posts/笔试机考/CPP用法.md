@@ -2,6 +2,8 @@
 title: CPP用法
 categories:
   - 笔试机考
+tags:
+  - 语言
 abbrlink: 321f9cbf
 date: 2024-08-07 16:06:03
 ---

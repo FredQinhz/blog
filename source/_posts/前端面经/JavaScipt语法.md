@@ -2,6 +2,8 @@
 title: JavaScipt语法
 categories:
   - 前端面经
+tags:
+  - 语言
 abbrlink: 8abd83e
 date: 2024-08-07 16:11:28
 ---

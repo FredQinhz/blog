@@ -13,6 +13,13 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
+  摄影:  # /photography/ || fas fa-camera
+    fur baby: /photography/pet/ || fas fa-cat
+    city: /photography/city/ || fas fa-city
+    sky: /photography/sky/ || fas fa-cloud-sun
+    life: /photography/life/ || fas fa-camera
+    dish: /photography/dish/ || fas fa-utensils
+
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
@@ -40,11 +47,11 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://raw.githubusercontent.com/FredQinhz/imgHosting/main/others/avatar.jpg
+favicon: https://fredq.oss-cn-nanjing.aliyuncs.com/others/avatar.jpg
 
 # Avatar (頭像)
 avatar:
-  img: img/avatar.jpg
+  img: https://fredq.oss-cn-nanjing.aliyuncs.com/others/avatar.jpg
   effect: false
 
 # Disable all banner image
@@ -643,7 +650,7 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://raw.githubusercontent.com/FredQinhz/imgHosting/main/others/cat2.jpg)
+background: url(https://fredq.oss-cn-nanjing.aliyuncs.com/others/cat2.jpg)
 
 
 # Footer Background
@@ -770,6 +777,7 @@ subtitle:
     - 如果你觉得累，那么就是在走上坡路。
     - 你来人间一趟，说要看看太阳。
     - 有些人能感受雨，而有些人只是被淋湿。
+    - 记录是生命的延续
 
 # Loading Animation (加載動畫)
 preloader:
@@ -918,7 +926,7 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css">
-    # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/css/mouse.css">
   bottom:
     # - <script src="xxxx"></script>
 
