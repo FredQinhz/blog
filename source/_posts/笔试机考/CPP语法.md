@@ -1,11 +1,14 @@
 ---
-title: CPP用法
+title: CPP语法
 categories:
   - 笔试机考
 tags:
   - 语言
 abbrlink: 321f9cbf
 date: 2024-08-07 16:06:03
+
+description: CPP的一些基础语法，以及如何使用等。
+cover: https://fredq.oss-cn-nanjing.aliyuncs.com/cover/cpp.png
 ---
 
 ## C++

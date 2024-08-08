@@ -1,11 +1,13 @@
 ---
 title: JavaScipt语法
 categories:
-  - 前端面经
+  - 前端
 tags:
   - 语言
 abbrlink: 8abd83e
 date: 2024-08-07 16:11:28
+
+cover: https://fredq.oss-cn-nanjing.aliyuncs.com/cover/javascript.png
 ---
 
 ## 运算符

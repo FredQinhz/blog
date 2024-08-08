@@ -10,15 +10,15 @@ nav:
 # Menu 目錄
 menu:
   首页: / || fas fa-home
-  时间轴: /archives/ || fas fa-archive
+  归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  摄影:  # /photography/ || fas fa-camera
-    fur baby: /photography/pet/ || fas fa-cat
-    city: /photography/city/ || fas fa-city
-    sky: /photography/sky/ || fas fa-cloud-sun
-    life: /photography/life/ || fas fa-camera
-    dish: /photography/dish/ || fas fa-utensils
+  摄影||fas fa-camera:
+    fur baby: /pet/ || fas fa-cat
+    city: /city/ || fas fa-city
+    sky: /sky/ || fas fa-cloud-sun
+    life: /life/ || fas fa-images
+    dish: /dish/ || fas fa-utensils
 
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
@@ -40,6 +40,11 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
+  fab fa-qq: https://tool.gljlw.com/qqq/?qq=814532396 || QQ：814532396 || '#0099ff'
+  fab fa-weixin: https://fredq.oss-cn-nanjing.aliyuncs.com/others/weixin.jpg || 微信：Q_y_tiao || '#07c160'
+  fab fa-gitlab: https://git.nju.edu.cn/y_tiao || 南大GitLab || '#e24329'
+  iconfont icon-bilibili: https://space.bilibili.com/2039062003 || bilibili 哔哩哔哩：y_tiao
+  iconfont icon-douyinzhanghao: https://v.douyin.com/irFDtVGh/ 4@0.com :0pm || 抖音：208784591
   # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
 
@@ -87,13 +92,15 @@ category_per_img:
 cover:
   # display the cover or not (是否顯示文章封面)
   index_enable: true
-  aside_enable: true
+  aside_enable: false
   archives_enable: true
   # the position of cover in home page (封面顯示的位置)
   # left/right/both
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
+    - https://fredq.oss-cn-nanjing.aliyuncs.com/cover/cover0.png
+    - https://fredq.oss-cn-nanjing.aliyuncs.com/cover/cover1.jpg
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -127,7 +134,7 @@ post_meta:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 2
   length: 500 # if you set method to 2 or 3, the length need to config
 
 # anchor
@@ -927,6 +934,7 @@ inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css">
     - <link rel="stylesheet" href="/css/mouse.css">
+    - <link rel="stylesheet" href="/css/icon.css">
   bottom:
     # - <script src="xxxx"></script>
 
