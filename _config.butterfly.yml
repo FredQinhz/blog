@@ -26,7 +26,7 @@ menu:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
   # Link: /link/ || fas fa-link
-  # About: /about/ || fas fa-heart
+  关于我: /about/ || fas fa-user-md
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -243,7 +243,7 @@ aside:
   card_author:
     enable: true
     description: 
-      - 南京大学软件工程大三在读
+      - 南京大学软件工程 21级本科
     button:
       enable: true
       icon: fab fa-github
