@@ -31,11 +31,11 @@ archive_dir: archives
 category_dir: categories
 
 photography_dir: photography
-pet_dir: photography/pet
-city_dir: photography/city
-sky_dir: photography/sky
-life_dir: photography/life
-dish_dir: photography/dish
+pet_dir: pet
+city_dir: city
+sky_dir: sky
+life_dir: life
+dish_dir: dish
 
 about_dir: about
 link_dir: link
