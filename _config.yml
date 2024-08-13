@@ -31,11 +31,12 @@ archive_dir: archives
 category_dir: categories
 
 photography_dir: photography
-pet_dir: pet
-city_dir: city
-sky_dir: sky
-life_dir: life
-dish_dir: dish
+## 下拉式可以这么做
+# pet_dir: pet
+# city_dir: city
+# sky_dir: sky
+# life_dir: life
+# dish_dir: dish
 
 code_dir: downloads/code
 i18n_dir: :lang

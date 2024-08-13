@@ -13,12 +13,14 @@ menu:
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  摄影||fas fa-camera:
-    fur baby: /pet/ || fas fa-cat
-    city: /city/ || fas fa-city
-    sky: /sky/ || fas fa-cloud-sun
-    life: /life/ || fas fa-images
-    dish: /dish/ || fas fa-utensils
+  摄影: /photography/ || fas fa-camera
+  ## 想做成下拉式可以这样做
+  # 摄影||fas fa-camera:
+  #   fur baby: /pet/ || fas fa-cat
+  #   city: /city/ || fas fa-city
+  #   sky: /sky/ || fas fa-cloud-sun
+  #   life: /life/ || fas fa-images
+  #   dish: /dish/ || fas fa-utensils
 
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
@@ -233,7 +235,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   display:
     archive: true
     tag: true
@@ -263,7 +265,7 @@ aside:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
     orderby: random # Order of tags, random/name/length
     order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
     sort_order: # Don't modify the setting unless you know how it works
