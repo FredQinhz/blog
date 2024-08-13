@@ -1,6 +1,7 @@
 ---
 title: 关于我
 date: 2024-08-13 23:22:40
+type: about
 ---
 
 ## Me
