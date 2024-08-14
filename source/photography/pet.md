@@ -1,5 +1,5 @@
 ---
-title: 小动物
+title: 动物朋友
 date: 2024-08-08 00:33:06
 type: 'photography/pet'
 ---

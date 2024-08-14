@@ -21,6 +21,6 @@ ENFP
 🚗喜欢旅行，说走就走
 
 ## Contact
-📫E-mail：211250126@smail.nju.edu.cn
+📧E-mail：211250126@smail.nju.edu.cn
 > 主页有 QQ 等联系方式
  

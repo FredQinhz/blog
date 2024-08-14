@@ -243,12 +243,12 @@ aside:
   card_author:
     enable: true
     description: 
-      - 南京大学软件工程 21级本科
+      - 南京大学软件工程专业 21级本科生
     button:
       enable: true
       icon: fab fa-github
       text: GitHub
-      link: https://github.com/FredQinhz
+      link: https://github.com/FredQinhz/FredQinhz.github.io
   card_announcement:
     enable: false
     content: 公告公告!
