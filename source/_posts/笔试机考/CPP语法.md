@@ -776,11 +776,11 @@ int res = str1.compare(str2); // str1 < str2，res < 0;
 
 -  作为**函数返回值**
 
-  ```cpp
-  pair<int, int> function(int id, int n){
-  	return {id, n}; // 本质上还是一个结构体
-  }  
-  ```
+    ```cpp
+    pair<int, int> function(int id, int n){
+      return {id, n}; // 本质上还是一个结构体
+    }  
+    ```
 
 
 
