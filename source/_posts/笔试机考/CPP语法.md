@@ -701,6 +701,89 @@ string str2("red apple");
 int res = str1.compare(str2); // str1 < str2，res < 0;
 ```
 
+### C++ `pair` 用法
+
+#### 简介
+
+- `std::pair`主要的作用是**将两个数据组合成一个数据**，两个数据可以是同一类型或者不同类型。（不需要因此额外定义结构体）
+- C++标准程序库中凡是“必须返回两个值”的函数， 也都会利用pair对象。
+- class pair可以将两个值视为一个单元。容器类别 map 和 multimap 就是使用 pairs 来管理其 键值 / 实值 (key/value) 的成对元素。
+- **pair被定义为struct不是class，所以可以直接使用pair的成员变量，**直接存取pair中的个别值.。
+- 两个pairs互相比较时， 第一个元素具有较高的优先级.。
+
+#### 定义
+
+- 其标准库类型–pair类型定义在 **`#include <utility>`** 头文件中，定义如下：
+  - **类模板**：`template<class T1,class T2> struct pair`
+  - **参数**：T1是第一个值的数据类型，T2是第二个值的数据类型。
+
+- **需要注意的是**，由于map内部实现涉及到pair，因此**添加map头文件时会自动添加utility头文件**，
+  所以，记不住的话，可以用map头文件来代替。
+
+#### 初始化
+
+- **定义时初始化**：
+  
+  - 使用**构造函数**：只需要跟上一个小括号，里面填写两个想要初始化的元素即可。
+  
+    ```cpp
+    pair<string, int> p1("pair",5);
+    ```
+  
+  - **直接初始化**：
+  
+    ```cpp
+    pair<string, int> p2 = {"test", 3};
+    ```
+  
+  - 通过**赋值**：
+  
+     ```cpp
+     pair<string, int> p;
+     p.first = "asdf";
+     p.second = 6;
+     
+     // 临时变量的赋值
+      p = pair<string,int> ("zxcv",666);
+     ```
+  
+- **使用自带的make_pair函数**：
+
+   ```cpp
+   auto p2 = make_pair(“asdf”,6); // 不必费力写成 pair<string, int>(“asdf”,6)
+   ```
+
+#### 常见用途
+
+- 用来**代替二元结构体**及其构造函数，可以节省编码时间
+
+- **作为 map 的键值对来进行插入**，示例如下
+
+  ```cpp
+  map<string,int> mp;
+  	
+  mp.insert(make_pair("wsad",6));
+  mp.insert(pair<string,int>("jkluio",10086));
+  ```
+
+- 若是 pair 在**容器中**
+
+  ```cpp
+  queue<pair<int,int>> q; // pair<id, steps>
+  // ......
+  q.emplace(id, steps); 
+  ```
+
+-  作为**函数返回值**
+
+  ```cpp
+  pair<int, int> function(int id, int n){
+  	return {id, n}; // 本质上还是一个结构体
+  }  
+  ```
+
+
+
 ### C++ 查找方法
 
 - **只能用于查找序列容器**：用于在序列容器（如 `std::vector`, `std::list`, `std::array` 等）中**线性查找**指定元素。
@@ -775,7 +858,7 @@ int main() {
 ```
 
 
-### C++ 手搓split()方法
+### C++ 手搓 `split()` 方法
 
 - 以字符进行分割：
 
